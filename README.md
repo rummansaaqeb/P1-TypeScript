@@ -74,7 +74,7 @@ TypeScript significantly improves the quality and maintainability of the code by
 
 # What is the use of the `keyOf` keyword in TypeScript?
 
-In TypeScript, keyof keyword is an extremely useful function that you may use to access the keys of an object type as a type. This turns out to be extremely useful whenever you are working with dynamic objects or require limiting a value to a set of known keys. With keyof, you not only make your code flexible but type-safe, without allowing invalid keys to be utilized.
+In TypeScript, `keyof` keyword is an extremely useful function that you may use to access the keys of an object type as a type. This turns out to be extremely useful whenever you are working with dynamic objects or require limiting a value to a set of known keys. With `keyof`, you not only make your code flexible but type-safe, without allowing invalid keys to be utilized.
 
 ### How does `keyOf` work?
 
@@ -109,11 +109,11 @@ console.log(getPersonProperty(person, "age"));   // Output: 25
 
 ### Why use `keyOf`?
 
-1. Type Safety: Employing keyof guarantees that you're always dealing with type-safe property names. TypeScript will throw an error if you attempt to access an invalid property on the object.
+1. Type Safety: Employing `keyof` guarantees that you're always dealing with type-safe property names. TypeScript will throw an error if you attempt to access an invalid property on the object.
 
 2. Dynamic Property Access: It allows you to write functions that are able to dynamically get object properties without losing track of the right keys. It is very useful when working with generic functions or when you need your code to be more reusable.
 
-3. Cleaner Code: By applying keyof, you don't have to manually type out keys as string literals, which spares you from repetition and keeps your code maintainable.
+3. Cleaner Code: By applying `keyof`, you don't have to manually type out keys as string literals, which spares you from repetition and keeps your code maintainable.
 
 ### Conclusion: 
 
